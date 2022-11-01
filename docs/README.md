@@ -7,7 +7,7 @@ This software is provided as is, with no warranties and/or support guaranteed.
 I/Microgam.es dosen't own YouTube or YouTube TV or YouTube Music.
 
 ## Content:
-<details>
+<content>
   </br>
 
   - [Features](https://microgam-es.github.io/YouTube-TV-Client/#features)
