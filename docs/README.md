@@ -7,7 +7,7 @@ This software is provided as is, with no warranties and/or support guaranteed.
 I/Microgam.es dosen't own YouTube or YouTube TV or YouTube Music.
 
 ## Installing
-1. Download the Zip file from the releases page ( https://github.com/Microgam-es/YouTube-TV-Client/releases )
+1. Download the Zip file from the releases page ([This Link](https://github.com/Microgam-es/YouTube-TV-Client/releases)).
 2. Extract the file and copy the .app file in the ~/Applications directory on your device.
 3. Open the Finder and go into the ~/Applications directory, find the "YouTube TV Client.app" file.
 4. Ctrl + Click on it and press on open.
