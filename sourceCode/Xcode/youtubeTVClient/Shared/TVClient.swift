@@ -12,7 +12,7 @@ import SwiftUI
 struct YTClient: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SplashScreenView()
         }
     }
 }

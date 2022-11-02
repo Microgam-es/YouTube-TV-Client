@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		59A1C87E291315C300C41485 /* WebViewKit in Frameworks */ = {isa = PBXBuildFile; productRef = 59A1C87D291315C300C41485 /* WebViewKit */; };
 		59BFF296291088C2006A866C /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 59BFF295291088C2006A866C /* Credits.rtf */; };
 		A90FB9EE27F65D0600D05AA1 /* WebViewKit in Frameworks */ = {isa = PBXBuildFile; productRef = A90FB9ED27F65D0600D05AA1 /* WebViewKit */; };
 		A90FB9F027F65D0A00D05AA1 /* WebViewKit in Frameworks */ = {isa = PBXBuildFile; productRef = A90FB9EF27F65D0A00D05AA1 /* WebViewKit */; };
@@ -35,6 +36,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A90FB9EE27F65D0600D05AA1 /* WebViewKit in Frameworks */,
+				59A1C87E291315C300C41485 /* WebViewKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,6 +123,7 @@
 			name = "YouTube TV Client (iOS)";
 			packageProductDependencies = (
 				A90FB9ED27F65D0600D05AA1 /* WebViewKit */,
+				59A1C87D291315C300C41485 /* WebViewKit */,
 			);
 			productName = "Demo (iOS)";
 			productReference = A91347F527F65C6100DCBB5F /* YouTube TV Client.app */;
@@ -174,6 +177,9 @@
 				Base,
 			);
 			mainGroup = A91347E827F65C6000DCBB5F;
+			packageReferences = (
+				59A1C87C291315C300C41485 /* XCRemoteSwiftPackageReference "WebViewKit" */,
+			);
 			productRefGroup = A91347F627F65C6100DCBB5F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -490,7 +496,23 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		59A1C87C291315C300C41485 /* XCRemoteSwiftPackageReference "WebViewKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/danielsaidi/WebViewKit.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
+		59A1C87D291315C300C41485 /* WebViewKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 59A1C87C291315C300C41485 /* XCRemoteSwiftPackageReference "WebViewKit" */;
+			productName = WebViewKit;
+		};
 		A90FB9ED27F65D0600D05AA1 /* WebViewKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = WebViewKit;
